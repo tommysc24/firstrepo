@@ -25,13 +25,23 @@ def card_name(card):
     number = "King"
   if card[0] == 14:
     number = "Ace"
-  card_thing = number + " of ", + card[1]
+  card_thing = number + " of " + card[1]
   return card_thing 
-def draw_card(Player):
-  card = deck[0]
-  deck.remove(deck[0])
-  print("Player" + " drew the" + card_thing)
-  return card
+
+print(deck)
+
+class draw_card 
+  import random 
+  import card_thing
+  def __init__(self, card): 
+    card = card_thing
+    self.card = random.deck[0]
+    deck.remove(deck[0])
+    print(card)
+    print("Player" + " drew the" + card)
+   super(player)
+
+   
 
 
 
@@ -40,8 +50,8 @@ random.draw(deck)
 
 #each player draws card 
 while True:
-  player_one_card = draw_card("player 1")
-  player_two_card = draw_card("Player 2")
+  player_one_card = draw_card.p1
+  player_two_card = draw_card.p2
 #compare to see who wins
   if player_one_card[0] > player_two_card[0]:
     winner = "Player one"
