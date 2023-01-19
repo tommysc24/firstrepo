@@ -1,7 +1,12 @@
 import random
 
-player_one_score = 0 
-player_two_score = 0 
+class player 
+  def __init__(self, name, score): 
+    self.name = name 
+    self.score = score
+p1 = player("Dougie", 0)
+p2 = player("Roberto", 0)
+print(p1.name + "goes first!")
 #make the deck 
 deck = []
 def make_deck():
